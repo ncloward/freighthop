@@ -19,6 +19,15 @@ FORGE
     ripienaar/concat (0.2.0)
 
 GIT
+  remote: https://github.com/dcosson/puppet-cassandra.git
+  ref: master
+  sha: 1f83dbe45d1f715d6edec393a7b08c13ec3c3784
+  specs:
+    gini/cassandra (0.4.0)
+      puppetlabs/apt (~> 1)
+      puppetlabs/stdlib (>= 3.0.0)
+
+GIT
   remote: https://github.com/jfryman/puppet-nginx
   ref: master
   sha: 30d62246b222ee91856843e20fda303fea996dcd
