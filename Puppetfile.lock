@@ -2,6 +2,9 @@ FORGE
   remote: http://forge.puppetlabs.com
   specs:
     alup/rbenv (1.2.0)
+    gini/cassandra (0.4.0)
+      puppetlabs/apt (~> 1)
+      puppetlabs/stdlib (>= 3.0.0)
     puppetlabs/apt (1.2.0)
       puppetlabs/stdlib (>= 2.2.1)
     puppetlabs/firewall (0.4.2)
@@ -32,6 +35,7 @@ PATH
 DEPENDENCIES
   alup/rbenv (>= 0)
   freighthop (>= 0)
+  gini/cassandra (>= 0)
   nginx (>= 0)
   puppetlabs/apt (>= 0)
   puppetlabs/mysql (>= 0)

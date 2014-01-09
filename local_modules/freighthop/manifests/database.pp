@@ -7,4 +7,7 @@ class freighthop::database(
   if (member($flavors, 'mysql')) {
     class { 'freighthop::database::mysql':}
   }
+  if (member($flavors, 'cassandra')) {
+    class { 'freighthop::database::cassandra':}
+  }
 }
